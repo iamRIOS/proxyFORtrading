@@ -97,7 +97,7 @@ else
 fi
 
 # ---------- Итог ----------
-TRANSIT_IP=$(curl -s ifconfig.me 2>/dev/null || hostname -I | awk '{print $1}')
+TRANSIT_IP=$(curl -4s ifconfig.me 2>/dev/null || ip addr show | grep 'inet ' | grep -v '127.0.0.1' | grep -v '172\.' | awk '{print $2}' | cut -d/ -f1 | head -1)
 echo ""
 echo "=================================================="
 echo -e "${GREEN}   ТРАНЗИТНЫЙ СЕРВЕР ГОТОВ! Параметры для Shadowsocks клиента:${NC}"
