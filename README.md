@@ -2,6 +2,8 @@
 
 # <a href="https://github.com/iamRIOS/">iamRIOS</a><a href="https://github.com/iamRIOS/proxyFORtrading">/proxyFORtrading</a>
 
+</div>
+
 Двухзвенный Shadowsocks прокси для трейдинга с минимальным пингом до биржи.  
 Оптимизирован для работы с **Binance**, **Bybit** и другими криптобиржами через маршрут Россия → Хабаровск → Япония.
 
