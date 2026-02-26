@@ -22,9 +22,9 @@
 ```
 Твой ПК  (Shadowsocks клиент)
     ↓
-Транзитный сервер — город рядом с тобой  (Glider в Docker)
+Транзитный сервер — Хабаровск  (Glider в Docker)
     ↓
-Exit сервер — город рядом с биржей  (Shadowsocks-libev)
+Exit сервер — Токио  (Shadowsocks-libev)
     ↓
 Биржа (Binance / Bybit / др.)
 ```
